@@ -1,0 +1,79 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0px 3px 10px rgb(8, 8, 8);
+    position: relative;
+}
+header h1{
+    color: rgb(23, 155, 215);
+}
+header nav {
+    padding-right: 100px
+    
+}
+header nav a{
+    color: rgb(23, 155, 215);
+    padding: 8px;
+    text-decoration: none;
+
+}
+header nav .contect{
+    background-color: rgb(23, 155, 215) ;
+    color: beige;
+    border-radius: 10px;
+    padding: 5px 25px;
+}
+ 
+.blogsection{
+    height: 300px;
+    background-image: linear-gradient(rgba(0, 217, 255, 0.541),rgba(0, 225, 255, 0.39)),url(images/BlogBgImage.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    border-radius: 0px 0px 30px 30px;
+
+}
+.blogsection h1 {
+    font-size: 70px ;
+    font-weight: bolder;
+    color: aliceblue;
+}
+/* bolog sextion */
+
+
+.maindiv {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+.maindiv div {
+    box-shadow: 0px 0px 4px black;
+    margin: 10px;
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+.maindiv div img{
+    margin-top: 10px;
+    margin-bottom: 10ox;
+    width: 100%;
+    height: 150px;
+}
+.maindiv div a{
+
+    text-decoration: none;
+    color: rgb(23, 155, 215);
+    
+}

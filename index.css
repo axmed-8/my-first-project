@@ -1,0 +1,1027 @@
+* {
+    margin: 0px;
+    padding:0px;
+    font-family: sans-serif;
+  
+   
+}
+
+header nav .contect:hover{
+    
+    color: white;
+    box-shadow:  0px 0px 5px rgb(23, 155, 215);
+    padding: 6px 26px;
+}
+
+.homesextion button:hover{
+     box-shadow:  0px 0px 5px rgb(23, 155, 215);
+     border-radius: 10px;
+     padding: 3px 20px;
+
+}
+.aboutsection .text button:hover{
+     box-shadow:  0px 0px 5px rgb(23, 155, 215);
+     border-radius: 10px;
+     padding: 3px 30px;
+     text-transform:uppercase;
+     
+     
+}
+header nav a:hover {
+     color: rgb(23, 155, 215);
+     box-shadow:  0px 0px 5px;
+     padding: 10px 10px;
+     border-radius:  10px;
+    }
+  
+body {
+    height: 100%;
+    margin: 0;
+   
+}
+
+/* headherka  */
+header{
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0px 3px 10px rgb(8, 8, 8);
+    position: relative;
+}
+header h1{
+    color: rgb(23, 155, 215);
+}
+header nav {
+    padding-right: 100px
+    
+}
+header nav a{
+    color: rgb(23, 155, 215);
+    padding: 8px;
+    text-decoration: none;
+
+}
+header nav .contect{
+    background-color: rgb(23, 155, 215) ;
+    color: beige;
+    border-radius: 10px;
+    padding: 5px 25px;
+}
+/* home ka  */
+.homesextion {
+    display: flex;
+    padding: 50px;
+    background-image: url(images/lineB.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.homesextion img{
+    width: 50%;
+    /* margin-left: 100px; */
+}
+.homesextion  .text{
+   
+    width: 600px;
+    height: 400x;
+    margin-left: -30px;
+}
+.homesextion .text h1 {
+    font-weight: bolder;
+    padding: 20px;
+    font-size: 30px;
+    
+}
+.homesextion .text h1 samp{
+    color: rgb(23, 155, 215);
+    text-decoration:underline;
+    font-weight: bolder;
+}
+.homesextion .text p{
+    font-size: 15px;
+    margin-left: 10px;
+    line-height: 18px;
+    width: 100%;
+    height: 100px;
+
+}
+.homesextion button{
+    
+    background-color: rgb(23, 155, 215);
+    font-size: 20px;
+    margin-left: 150px;
+    padding: 3px 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+.homesextion  button >a {
+    text-decoration: none;
+    color: white;
+  
+}
+.aboutsection  button >a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+
+ /* about sectiion */
+ .aboutsection {
+    display: flex;
+    padding: 35px;
+    
+
+    
+    background-color:whitesmoke
+    
+
+ }
+.aboutsection img{
+    
+    width: 50%;
+    height: 360px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.aboutsection .text img {
+width: 64px;
+height: 64px;
+margin-left: -3px;
+
+}
+.aboutsection .text h1{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.aboutsection .text p{
+    font-size: large;
+
+}
+.aboutsection .text button {
+    background-color: rgb(23, 155, 215);
+    font-size: 20px;
+    color: white;
+    margin-left: 150px;
+    padding: 3px 20px;
+    
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    font-weight: bolder;
+    margin-top: 15px;
+
+}
+/* servesection */
+.setvesection .main img{
+    width: 64px;
+    height: 64px;
+    padding-bottom: 10px;
+}
+.setvesection .main {
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.setvesection .main div{
+    border: 1px solid rgb(23, 155, 215);
+    margin:10px;
+    width: 300px;
+    height: auto;
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+.setvesection .main div p {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: medium;
+}
+.setvesection .main div h3{ 
+    font-size: 20px;
+}
+.setvesection >h1{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.setvesection >p {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.setvesection {
+    padding-top: 20px;
+}
+/* expsection */
+.expsection {
+    
+    background-color: rgb(23, 155, 215);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.expsection  img{
+    width: 64px;
+    height: 64px;
+    padding: 10px;
+    
+     
+}
+.expsection > div {
+    background-color: white;
+    width: 220px;
+    margin: 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    
+
+}
+.expsection .text >P {
+    font-size: small;
+}
+/*costamer section   */
+.custsection img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.custsection .divuguween {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    
+    
+    
+}
+.custsection .divuguween div p{
+  font-weight: bolder;
+  font-size: 13px;
+  margin-bottom: -30px;
+}
+
+.custsection .divuguween > div{
+    margin: 10px;
+    padding: 8px;
+    width: 290px;
+    height: 125px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.418);
+}
+.custsection .divuguween .imgname{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+
+}
+.custsection > h1{
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 30px;
+
+
+}
+
+.custsection {
+    height: 400px;
+    background-image: url(images/lineB.jpg);
+    background-position: center ;
+    background-size: cover;
+}
+/* aboutqeepta  */
+.aboutbg{
+    height: 300px;
+    background-image:linear-gradient(rgba(0, 162, 255, 0.699),rgba(0, 225, 255, 0.678)), url(images/aboutUsBg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px ;
+
+}
+.aboutbg h1{
+    font-size: 100px;
+    font-weight: bolder;
+    color: white;
+}
+/* about sectiion */
+ .aboutsection {
+    display: flex;
+    
+    background-color:whitesmoke
+    
+
+ }
+.aboutsection img{
+    width: 50%;
+    height: 360px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.aboutsection .text img {
+width: 64px;
+height: 64px;
+margin-left: -3px;
+
+}
+.aboutsection .text h1{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.aboutsection .text p{
+    font-size: large;
+
+}
+.aboutsection .text button {
+    background-color: rgb(23, 155, 215);
+    font-size: 20px;
+    color: white;
+    margin-left: 150px;
+    padding: 3px 20px;
+    
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    font-weight: bolder;
+    margin-top: 15px;
+
+}
+/* servesection */
+.setvesection .main img{
+    width: 64px;
+    height: 64px;
+    padding-bottom: 10px;
+}
+.setvesection .main {
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.setvesection .main div{
+    border: 1px solid rgb(23, 155, 215);
+    margin:10px;
+    width: 300px;
+    height: auto;
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+.setvesection .main div p {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: medium;
+}
+.setvesection .main div h3{ 
+    font-size: 20px;
+}
+.setvesection >h1{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.setvesection >p {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.setvesection {
+    padding-top: 20px;
+}
+/* expsection */
+.expsection {
+    background-color: rgb(23, 155, 215);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.expsection  img{
+    width: 64px;
+    height: 64px;
+    padding: 10px;
+    
+     
+}
+.expsection > div {
+    background-color: white;
+    width: 220px;
+    margin: 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+
+}
+.expsection .text >P {
+    font-size: small;
+}
+/*costamer section   */
+.custsection img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+   
+}
+.custsection .divuguween {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+    
+    
+    
+    
+}
+.custsection .divuguween > div{
+    margin: 10px;
+    padding: 10px;
+    width: 290px;
+    height: 155px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.418);
+}
+.custsection .divuguween .imgname{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.custsection > h1{
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 30px;
+
+
+}
+.custsection .divuguween p{
+    margin-top: 6px;
+    margin-bottom: 50px;
+    font-size: 11px;
+    margin-bottom: 8px;
+    
+     
+}
+.custsection {
+    
+    height: 400px;
+    background-image: url(images/lineB.jpg);
+    background-position: center ;
+    background-size: cover;
+
+}
+/* blg qeepta */
+.blogsection{
+    height: 300px;
+    background-image: linear-gradient(rgba(0, 217, 255, 0.541),rgba(0, 225, 255, 0.39)),url(images/BlogBgImage.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    border-radius: 0px 0px 30px 30px;
+
+}
+.blogsection h1 {
+    font-size: 70px ;
+    font-weight: bolder;
+    color: aliceblue;
+}
+/* bolog sextion */
+
+
+.maindiv {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+.maindiv div {
+    box-shadow: 0px 0px 4px black;
+    margin: 10px;
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+.maindiv div img{
+    margin-top: 10px;
+    margin-bottom: 10ox;
+    width: 100%;
+    height: 150px;
+}
+.maindiv div a{
+
+    text-decoration: none;
+    color: rgb(23, 155, 215);
+    
+}
+
+/* contect qeepta */
+/* contect */
+.contetsetion{
+    height: 300px;
+    background-image: linear-gradient(rgba(0, 153, 255, 0.541),rgba(0, 140, 255, 0.445)), url(images/contactBgImage.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0px 0px 20px 20px ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.contetsetion h1{
+    font-size: 60px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+/* form div */
+.comtectmaindiv{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+
+}
+.comtectmaindiv > div {
+    width: 50%;
+    height: 260px;
+    padding: 20px;
+    border:  2px solid rgb(23, 155, 215);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.comtectmaindiv .formdiv input{
+    width: 100%;
+    height: 30px;
+   
+    padding-left: 10px;
+    border:  2px solid rgb(23, 155, 215);
+    margin-top: 5px;
+    border-radius: 10px;
+
+}
+.comtectmaindiv .formdiv textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 150px;
+    border:  2px solid rgb(23, 155, 215);
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.comtectmaindiv .formdiv button{
+    width: 100%;
+    height: 30px;
+    border:  none;
+    background-color: rgb(23, 155, 215);
+    color: white;
+    font-weight: bolder;
+    margin-top: 5px;
+    border-radius: 10px;
+
+    
+
+
+}
+/* footer  */
+footer {
+    background-color: rgba(23, 154, 215, 0.719);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px  20px;
+    margin-top: -20px;  
+}
+footer h3{
+  font-size: 12px;
+}
+/* ===============================
+   MOBILE (0px – 480px)
+   =============================== */
+@media (max-width: 480px) {
+
+  header{
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header nav{
+    margin-top: 10px ;
+    padding-right: 0;
+    font-size: 10px;
+  }
+
+  .homesextion{
+    display: block;
+    padding: 20px;
+  }
+
+  .homesextion img{
+    width: 100%;
+  }
+
+  .homesextion .text{
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .homesextion .text h1{
+    font-size: 22px;
+  }
+
+  .homesextion button{
+    margin-left: 0;
+  }
+
+  .aboutsection{
+    display: block;
+  }
+
+  .aboutsection img{
+    width: 100%;
+    height: auto;
+  }
+
+  .aboutsection .text{
+    text-align: center;
+  }
+
+  .aboutsection .text button{
+    margin-left: 0;
+  }
+
+  .setvesection .main{
+    display: block;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+   
+  }
+
+
+  .expsection{
+    display: block;
+    height: auto;
+    padding: 20px 0;
+     display: grid;
+     justify-content: center;
+    align-items: center;
+  }
+
+  .custsection{
+    height: auto;
+  }
+
+  .custsection .divuguween{
+    display: block;
+  }
+
+  .custsection h1{
+    font-size: 22px;
+  }
+
+  .blogsection h1{
+    font-size: 40px;
+  }
+
+  .aboutbg h1{
+    font-size: 45px;
+  }
+  .maindiv {
+    display: block;
+    margin-bottom: 80px;
+
+  }
+  .custsection .divuguween{
+    display: block;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+   
+  }
+
+  .contetsetion h1{
+    font-size: 40px;
+  }
+
+  .comtectmaindiv > div{
+    width: 100%;
+    margin: 10px 10px;
+
+  }
+}
+
+/* ===============================
+   TABLET (481px – 768px)
+   =============================== */
+@media (min-width: 481px) and (max-width: 768px) {
+
+  header{
+    height: auto;
+  }
+
+  header nav{
+    padding-right: 0;
+    font-size: 12px;
+  }
+
+  .homesextion{
+    display: block;
+    padding: 30px;
+  }
+
+  .homesextion img{
+    width: 100%;
+  }
+
+  .homesextion .text{
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .homesextion button{
+    margin-left: 0;
+  }
+
+  .aboutsection{
+    display: block;
+  }
+
+  .aboutsection img{
+    width: 100%;
+  }
+
+  .setvesection .main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px ;
+    row-gap: 1px;
+
+    margin-top:  10px;
+  }
+  .setvesection .main div {
+    width: 100%;}
+
+  .expsection{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: auto;
+    padding: 30px 0;
+  }
+
+  .custsection{
+    height: auto;
+  }
+
+  .custsection .divuguween{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .maindiv{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .contetsetion h1{
+    font-size: 55px;
+  }
+
+  .comtectmaindiv > div{
+    width: 80%;
+  }
+}
+
+/* ===============================
+   DESKTOP (769px AND UP)
+   =============================== */
+@media (min-width: 769px) {
+
+  .homesextion{
+    display: flex;
+  }
+
+  .aboutsection{
+    display: flex;
+  }
+
+  .setvesection .main{
+    display: flex;
+  }
+
+  .custsection .divuguween{
+    display: flex;
+  }
+
+  .maindiv{
+    display: flex;
+  }
+}
+
+.setvesection .main >div:hover{
+  box-shadow: 0px 0px 5px black;
+  transform: translateY(-15px);
+  background-color: rgba(0, 140, 255, 0.445);
+  color: white;
+
+}
+.expsection >div:hover{
+  box-shadow: 0px 0px 5px black;
+  transform: translateY(-15px);
+  background-color: rgba(0, 140, 255, 0.445);
+  color: white;
+
+}
+/* icon white */
+.setvesection .main > div:hover img {
+  filter: brightness(0) invert(1);
+}
+.expsection > div:hover img {
+  filter: brightness(0) invert(1);
+}
+.custsection .divuguween >div:hover{
+  box-shadow: 0px 0px 5px black;
+  transform: translateY(-15px);
+  background-color: rgba(0, 140, 255, 0.445);
+  color: white;
+
+}
+.maindiv >div:hover{
+  box-shadow: 0px 0px 5px black;
+  transform: translateY(-15px);
+  background-color: rgba(0, 140, 255, 0.445);
+  color: white;
+
+}
+/* contect footer */
+.footersection {
+  background-color: rgb(23, 155, 215);
+  padding-top: 22px;
+  height: 160px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+.footersection .Madel{
+  
+  display: flex;
+  justify-content: space-evenly;
+  
+} 
+.footersection .Madel >div {
+  height: 100px;
+}
+.footera {
+  display: flex;
+  flex-direction: column; /* hoos u saf */
+  justify-content: center;
+  gap: 8px;               /* kala dheeree */
+
+}
+.footera a {
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+  color: white;
+}
+.phonecall {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  gap: 8px;               
+
+}
+.phonecall a {
+  text-decoration: none;
+  color: white;
+}
+.footersection .Madel h1 {
+  color: white;
+  
+  font-size: 30px; 
+  font-weight: bolder;
+  
+}
+.footersection .Madel .h1 {
+  color: white;
+  font-size: 50px; 
+  font-weight: bolder;
+  
+}
+/* ===============================
+   TABLET (max 768px)
+   =============================== */
+@media (max-width: 768px) {
+
+  .footersection {
+    height: auto;              /* ka saar height go'an */
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .footersection .Madel  {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .footersection .Madel > div {
+    height: auto;
+  }
+}
+
+.social {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2px;
+    margin-bottom: 10px;
+    
+}
+
+/* ===============================
+   MOBILE (max 480px)
+   =============================== */
+@media (max-width: 480px) {
+
+  .footersection {
+    height: auto;              /* MUHIIM */
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+  }
+
+  .footersection .Madel {
+    display: flex;
+    flex-direction: column;    /* hoos u saf */
+    align-items: center;
+    gap: 25px;
+  }
+
+  .footersection .Madel > div {
+    height: auto;
+  }
+
+  .footera,
+  .phonecall {
+    align-items: center;
+  }
+}
+
+/* ===============================
+   TABLET (max 768px)
+   =============================== */
+@media (max-width: 768px) {
+  .social {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+}
+
+/* ===============================
+   MOBILE (max 480px)
+   =============================== */
+@media (max-width: 480px) {
+  .social {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 6px;
+  }
+}
+
+.social > a {
+  height: 50px;
+}
+.social img {
+  filter: brightness(0) invert(1);
+} 
+.footersection P{
+  color: white;
+  font-size: 20px;
+
+}
